@@ -34,7 +34,9 @@
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
       "!**/node_modules/**",
-      "!**/vendor/**"
+      "!**/vendor/**",
+      "!**/src/index.js",
+      "!**/src/registerServiceWorker.js"
     ],
     "coverageThreshold": {
       "global": {
